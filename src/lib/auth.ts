@@ -6,7 +6,11 @@ const SESSION_MAX_AGE_SECONDS = 60 * 60 * 8; // 8 horas
 function getSecret(): string {
   const secret = process.env.SESSION_SECRET;
   if (!secret) {
-    throw new Error("Falta SESSION_SECRET en las variables de entorno (.env.local)");
+    throw new Error(
+      "Falta la variable de entorno SESSION_SECRET. " +
+        "En local: agrégala a .env.local. " +
+        "En el hosting (Render/VPS): agrégala en las variables de entorno del servicio."
+    );
   }
   return secret;
 }
