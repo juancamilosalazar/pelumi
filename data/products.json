@@ -1,0 +1,782 @@
+[
+  {
+    "id": "797af656-de78-4ced-ae33-2cb6d25e8df1",
+    "slug": "oso-prueba1",
+    "name": "Oso prueba1",
+    "price": 120000,
+    "description": "fsdfsdsf",
+    "images": [
+      "/uploads/products/797af656-de78-4ced-ae33-2cb6d25e8df1/48a0c5b6-0aa3-4227-acc5-7e105f9afa02.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-08-08T20:56:39.644Z",
+    "updatedAt": "2026-08-08T20:56:39.644Z",
+    "reference": "P100",
+    "stock": "available"
+  },
+  {
+    "id": "6afd0ed3-7b69-4e38-b846-ecbd0e4693b4",
+    "slug": "oso-prueba-2",
+    "name": "Oso prueba 2",
+    "price": 240000,
+    "description": "Oso prueba 2",
+    "images": [
+      "/uploads/products/6afd0ed3-7b69-4e38-b846-ecbd0e4693b4/41063ac9-5976-4927-9f31-c18e172178d8.jpg"
+    ],
+    "favorite": true,
+    "createdAt": "2026-08-08T20:56:58.486Z",
+    "updatedAt": "2026-08-15T17:04:23.503Z",
+    "reference": "P101",
+    "stock": "available"
+  },
+  {
+    "id": "e9d3a5a4-c6d9-434e-b215-741a725fafb4",
+    "slug": "oso-prueba-3",
+    "name": "Oso prueba 3",
+    "price": 340000,
+    "description": "Oso prueba",
+    "images": [
+      "/uploads/products/e9d3a5a4-c6d9-434e-b215-741a725fafb4/4b43b830-af26-4838-bee4-95a0dac20ae5.jpg",
+      "/uploads/products/e9d3a5a4-c6d9-434e-b215-741a725fafb4/66fd7b70-2906-48d9-a531-4436155c5141.jpg",
+      "/uploads/products/e9d3a5a4-c6d9-434e-b215-741a725fafb4/29e99abc-586c-47d6-88aa-efac7d67c3ac.jpg",
+      "/uploads/products/e9d3a5a4-c6d9-434e-b215-741a725fafb4/471b2638-0ab7-41b7-be50-5bb731d08b66.jpg"
+    ],
+    "favorite": true,
+    "createdAt": "2026-08-08T20:57:15.899Z",
+    "updatedAt": "2026-08-08T20:58:31.512Z",
+    "reference": "P102",
+    "stock": "available"
+  },
+  {
+    "id": "bb0aae5a-bdf4-4eaf-acda-0f2e041982b6",
+    "slug": "oso-prueba-4",
+    "name": "Oso prueba 4",
+    "price": 344000,
+    "description": "",
+    "images": [
+      "/uploads/products/bb0aae5a-bdf4-4eaf-acda-0f2e041982b6/cfebb45c-a0c9-4608-aa78-74e377b5ca56.jpg"
+    ],
+    "favorite": true,
+    "createdAt": "2026-08-08T20:57:30.012Z",
+    "updatedAt": "2026-08-15T17:04:33.279Z",
+    "reference": "P103",
+    "stock": "available"
+  },
+  {
+    "id": "d40a51cd-e09c-48b9-9085-d024914202ca",
+    "slug": "oso-alejo",
+    "name": "Oso Alejo",
+    "price": 34000,
+    "description": "Oso para categoria: Disney",
+    "images": [
+      "/uploads/products/d40a51cd-e09c-48b9-9085-d024914202ca/ef105831-2224-4e4a-8d3e-71e7584d4b43.jpg",
+      "/uploads/products/d40a51cd-e09c-48b9-9085-d024914202ca/c01fa4ef-30b1-41e9-b0c1-40377163d746.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-08-15T17:07:08.507Z",
+    "updatedAt": "2026-08-15T17:07:08.507Z",
+    "reference": "P104",
+    "stock": "available"
+  },
+  {
+    "id": "43c24baf-774c-4952-aee7-3c6de8823c1f",
+    "slug": "hipopotamo-nube",
+    "name": "Hipopótamo Nube",
+    "price": 225900,
+    "description": "Línea Baby · Grande (80 cm). Hecho en felpa extra suave, pensado para acompañar a los más pequeños. Se puede lavar a máquina en ciclo suave.",
+    "images": [
+      "/uploads/products/43c24baf-774c-4952-aee7-3c6de8823c1f/9416053a-eb7d-407b-9f80-a0d6c2f01fa4.jpg",
+      "/uploads/products/43c24baf-774c-4952-aee7-3c6de8823c1f/ec01b6d1-e5a5-43e0-a0fd-6a6b303edf1f.jpg",
+      "/uploads/products/43c24baf-774c-4952-aee7-3c6de8823c1f/7a31bd1e-4fe8-4272-837e-21af172f54dc.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-15T19:14:34.815383Z",
+    "updatedAt": "2026-07-15T19:14:34.815383Z",
+    "reference": "P105",
+    "stock": "available"
+  },
+  {
+    "id": "ab33f711-b461-48ee-a941-ed6184bd8594",
+    "slug": "osito-nube",
+    "name": "Osito Nube",
+    "price": 73900,
+    "description": "Línea Clásica · Pequeño (30 cm). Hecho en peluche de algodón siliconado, ideal para regalar en cumpleaños y aniversarios. Incluye moño decorativo de regalo.",
+    "images": [
+      "/uploads/products/ab33f711-b461-48ee-a941-ed6184bd8594/7232439b-255b-4be3-9689-cb89e129f480.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-15T06:27:03.028496Z",
+    "updatedAt": "2026-07-15T06:27:03.028496Z",
+    "reference": "P106",
+    "stock": "available"
+  },
+  {
+    "id": "df14f51b-acc0-4fa6-a9a6-189674be4bc4",
+    "slug": "koala-miel",
+    "name": "Koala Miel",
+    "price": 50900,
+    "description": "Colección Nube · Mini (20 cm). Hecho en peluche afelpado de alta densidad, el regalo perfecto para sorprender a alguien especial. Costuras reforzadas y ojos bordados, seguros para bebés.",
+    "images": [
+      "/uploads/products/df14f51b-acc0-4fa6-a9a6-189674be4bc4/341eeaf5-f7e5-4ed7-94c5-b1784ae90c6d.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-30T00:25:40.860259Z",
+    "updatedAt": "2026-07-30T00:25:40.860259Z",
+    "reference": "P107",
+    "stock": "available"
+  },
+  {
+    "id": "1bf8ff34-8e5f-432c-9ab4-7e468d548f53",
+    "slug": "conejo-galleta",
+    "name": "Conejo Galleta",
+    "price": 120900,
+    "description": "Línea Clásica · Mediano (50 cm). Hecho en peluche de algodón siliconado, ideal para regalar en cumpleaños y aniversarios. Se puede lavar a máquina en ciclo suave.",
+    "images": [
+      "/uploads/products/1bf8ff34-8e5f-432c-9ab4-7e468d548f53/e326af77-111e-4414-abc8-b95cb0ac2e85.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-08-17T21:21:55.997280Z",
+    "updatedAt": "2026-08-17T21:21:55.997280Z",
+    "reference": "P108",
+    "stock": "available"
+  },
+  {
+    "id": "b8822241-9867-42b1-8501-f1f57b0c1540",
+    "slug": "elefante-corazon-grande",
+    "name": "Elefante Corazón Grande",
+    "price": 225900,
+    "description": "Colección Nube · Grande (80 cm). Hecho en peluche de algodón siliconado, el regalo perfecto para sorprender a alguien especial. Certificado libre de materiales tóxicos.",
+    "images": [
+      "/uploads/products/b8822241-9867-42b1-8501-f1f57b0c1540/db181c27-2d29-4c63-ad2a-112c1ad0b634.jpg",
+      "/uploads/products/b8822241-9867-42b1-8501-f1f57b0c1540/1ec65bde-62fe-4dbc-a25b-889a930e650f.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-08T12:36:36.405542Z",
+    "updatedAt": "2026-07-08T12:36:36.405542Z",
+    "reference": "P109",
+    "stock": "available"
+  },
+  {
+    "id": "ee5c77d2-679b-48c5-9451-d6b76aac7c8b",
+    "slug": "conejo-copito-gigante",
+    "name": "Conejo Copito Gigante",
+    "price": 370900,
+    "description": "Línea Clásica · Gigante (1.2 m). Hecho en felpa extra suave, perfecto para decorar y abrazar. Su carita bordada lo hace único.",
+    "images": [
+      "/uploads/products/ee5c77d2-679b-48c5-9451-d6b76aac7c8b/e0280f86-5efb-4832-9ae3-ae2b8fc7b501.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-12T08:23:08.336806Z",
+    "updatedAt": "2026-07-12T08:23:08.336806Z",
+    "reference": "P110",
+    "stock": "low"
+  },
+  {
+    "id": "7bd5c86e-3d26-4a6d-9860-172e0cce8e49",
+    "slug": "elefante-suenos",
+    "name": "Elefante Sueños",
+    "price": 117900,
+    "description": "Línea Clásica · Mediano (50 cm). Hecho en felpa extra suave, el regalo perfecto para sorprender a alguien especial. Certificado libre de materiales tóxicos.",
+    "images": [
+      "/uploads/products/7bd5c86e-3d26-4a6d-9860-172e0cce8e49/8bdac402-ec9c-4db7-b3f4-9b94e4a307ee.jpg",
+      "/uploads/products/7bd5c86e-3d26-4a6d-9860-172e0cce8e49/2a23d4a6-2252-45b3-b022-77a68ef03894.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-07T07:38:45.696860Z",
+    "updatedAt": "2026-07-07T07:38:45.696860Z",
+    "reference": "P111",
+    "stock": "out"
+  },
+  {
+    "id": "b5e6ba1f-2e49-407d-9ff2-97849f84cb52",
+    "slug": "elefante-canela",
+    "name": "Elefante Canela",
+    "price": 99900,
+    "description": "Colección Nube · Mediano (50 cm). Hecho en peluche afelpado de alta densidad, ideal para regalar en cumpleaños y aniversarios. Su carita bordada lo hace único.",
+    "images": [
+      "/uploads/products/b5e6ba1f-2e49-407d-9ff2-97849f84cb52/dbbf1521-fd9d-4bf2-a8b2-2b4394868c01.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-14T19:53:23.480172Z",
+    "updatedAt": "2026-07-14T19:53:23.480172Z",
+    "reference": "P112",
+    "stock": "available"
+  },
+  {
+    "id": "719db102-0262-4fd0-9bd7-82228252f85d",
+    "slug": "oso-polar-peludo",
+    "name": "Oso Polar Peludo",
+    "price": 350900,
+    "description": "Edición Especial · Gigante (1.2 m). Hecho en felpa premium antialérgica, un detalle que enamora a grandes y chicos. Relleno 100% siliconado que no se deforma.",
+    "images": [
+      "/uploads/products/719db102-0262-4fd0-9bd7-82228252f85d/584cae47-1678-48fe-8aaf-145347e485e7.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-31T00:15:08.623619Z",
+    "updatedAt": "2026-07-31T00:15:08.623619Z",
+    "reference": "P113",
+    "stock": "available"
+  },
+  {
+    "id": "7d5d575c-bd23-4984-a3ce-f467bd98902e",
+    "slug": "conejo-chocolate-mini",
+    "name": "Conejo Chocolate Mini",
+    "price": 38900,
+    "description": "Línea Baby · Mini (20 cm). Hecho en felpa extra suave, pensado para acompañar a los más pequeños. Costuras reforzadas y ojos bordados, seguros para bebés.",
+    "images": [
+      "/uploads/products/7d5d575c-bd23-4984-a3ce-f467bd98902e/75980750-c6ae-402c-a99c-134a3ae1d860.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-24T16:59:25.809284Z",
+    "updatedAt": "2026-07-24T16:59:25.809284Z",
+    "reference": "P114",
+    "stock": "low"
+  },
+  {
+    "id": "e1646cc3-6a00-44d3-9e4e-39328502c896",
+    "slug": "panda-arcoiris",
+    "name": "Panda Arcoíris",
+    "price": 83900,
+    "description": "Colección Fiesta · Pequeño (30 cm). Hecho en peluche de algodón siliconado, el regalo perfecto para sorprender a alguien especial. Se puede lavar a máquina en ciclo suave.",
+    "images": [
+      "/uploads/products/e1646cc3-6a00-44d3-9e4e-39328502c896/e82107e4-118f-4c10-81b6-f41a190f48dd.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-13T02:24:03.957643Z",
+    "updatedAt": "2026-07-13T02:24:03.957643Z",
+    "reference": "P115",
+    "stock": "available"
+  },
+  {
+    "id": "ad3055db-cd15-404c-8020-c7ffb9385c44",
+    "slug": "conejo-bombon-mini",
+    "name": "Conejo Bombón Mini",
+    "price": 36900,
+    "description": "Edición Especial · Mini (20 cm). Hecho en peluche afelpado de alta densidad, perfecto para decorar y abrazar. Certificado libre de materiales tóxicos.",
+    "images": [
+      "/uploads/products/ad3055db-cd15-404c-8020-c7ffb9385c44/a7ab1d7e-4ecf-41bf-bd2e-307278df3bdd.jpg"
+    ],
+    "favorite": true,
+    "createdAt": "2026-08-17T21:12:57.234447Z",
+    "updatedAt": "2026-08-17T21:12:57.234447Z",
+    "reference": "P116",
+    "stock": "out"
+  },
+  {
+    "id": "42f12265-7420-4912-ade0-13dfc40f4628",
+    "slug": "oso-cacao",
+    "name": "Oso Cacao",
+    "price": 44900,
+    "description": "Colección Abrazos · Mini (20 cm). Hecho en tela minky ultra suave, perfecto para decorar y abrazar. Certificado libre de materiales tóxicos.",
+    "images": [
+      "/uploads/products/42f12265-7420-4912-ade0-13dfc40f4628/f0b12f1c-53f5-4498-9002-338c8c6d4840.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-06-27T01:44:48.741392Z",
+    "updatedAt": "2026-06-27T01:44:48.741392Z",
+    "reference": "P117",
+    "stock": "available"
+  },
+  {
+    "id": "35396e8f-d4ff-4321-8ce5-793d51bddf69",
+    "slug": "elefante-arcoiris-pequeno",
+    "name": "Elefante Arcoíris Pequeño",
+    "price": 55900,
+    "description": "Colección Fiesta · Pequeño (30 cm). Hecho en tela minky ultra suave, el compañero ideal para la hora de dormir. Incluye moño decorativo de regalo.",
+    "images": [
+      "/uploads/products/35396e8f-d4ff-4321-8ce5-793d51bddf69/220fa39b-2085-4196-9046-6fe423605d18.jpg"
+    ],
+    "favorite": true,
+    "createdAt": "2026-07-01T21:22:02.593701Z",
+    "updatedAt": "2026-07-01T21:22:02.593701Z",
+    "reference": "P118",
+    "stock": "available"
+  },
+  {
+    "id": "49da2f5d-93cd-495a-9277-3a764f897779",
+    "slug": "dino-cacao-mini",
+    "name": "Dino Cacao Mini",
+    "price": 31900,
+    "description": "Colección Nube · Mini (20 cm). Hecho en peluche afelpado de alta densidad, un detalle que enamora a grandes y chicos. Costuras reforzadas y ojos bordados, seguros para bebés.",
+    "images": [
+      "/uploads/products/49da2f5d-93cd-495a-9277-3a764f897779/3d97f8c7-03de-4c9b-a2cb-c372c059299b.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-08-05T19:29:31.380776Z",
+    "updatedAt": "2026-08-05T19:29:31.380776Z",
+    "reference": "P119",
+    "stock": "available"
+  },
+  {
+    "id": "2d36ae65-22d8-440b-abd3-c888a7e89430",
+    "slug": "leon-peludo-mini",
+    "name": "León Peludo Mini",
+    "price": 42900,
+    "description": "Edición Especial · Mini (20 cm). Hecho en felpa extra suave, ideal para regalar en cumpleaños y aniversarios. Costuras reforzadas y ojos bordados, seguros para bebés.",
+    "images": [
+      "/uploads/products/2d36ae65-22d8-440b-abd3-c888a7e89430/94035fd4-1f48-4d5f-b00d-05d8b2560857.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-24T10:08:21.326839Z",
+    "updatedAt": "2026-07-24T10:08:21.326839Z",
+    "reference": "P120",
+    "stock": "available"
+  },
+  {
+    "id": "f873304b-e805-4bbc-a8dc-91f27e100667",
+    "slug": "oso-polar-corazon",
+    "name": "Oso Polar Corazón",
+    "price": 51900,
+    "description": "Colección Abrazos · Mini (20 cm). Hecho en tela minky ultra suave, el compañero ideal para la hora de dormir. Incluye moño decorativo de regalo.",
+    "images": [
+      "/uploads/products/f873304b-e805-4bbc-a8dc-91f27e100667/17a38f38-3cde-4b02-b443-eec371dd63d8.jpg",
+      "/uploads/products/f873304b-e805-4bbc-a8dc-91f27e100667/4f33f440-e25e-4007-861e-834e5b75d9ca.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-09T03:51:50.686283Z",
+    "updatedAt": "2026-07-09T03:51:50.686283Z",
+    "reference": "P121",
+    "stock": "available"
+  },
+  {
+    "id": "328157b1-f95d-4f32-a920-0a9918194cdb",
+    "slug": "oso-polar-estrella-mediano",
+    "name": "Oso Polar Estrella Mediano",
+    "price": 141900,
+    "description": "Línea Clásica · Mediano (50 cm). Hecho en peluche afelpado de alta densidad, el regalo perfecto para sorprender a alguien especial. Certificado libre de materiales tóxicos.",
+    "images": [
+      "/uploads/products/328157b1-f95d-4f32-a920-0a9918194cdb/99a8d508-feed-40d8-ac32-3f6ece4dfc69.jpg"
+    ],
+    "favorite": true,
+    "createdAt": "2026-08-03T21:47:53.056040Z",
+    "updatedAt": "2026-08-22T19:05:35.632Z",
+    "reference": "P122",
+    "stock": "available"
+  },
+  {
+    "id": "b8343155-2fa1-41fb-8750-5292e8d99eb6",
+    "slug": "leon-suenos-pequeno",
+    "name": "León Sueños Pequeño",
+    "price": 57900,
+    "description": "Edición Especial · Pequeño (30 cm). Hecho en felpa extra suave, perfecto para decorar y abrazar. Relleno 100% siliconado que no se deforma.",
+    "images": [
+      "/uploads/products/b8343155-2fa1-41fb-8750-5292e8d99eb6/003090a5-9cde-426f-9cff-eae982bea796.jpg",
+      "/uploads/products/b8343155-2fa1-41fb-8750-5292e8d99eb6/76f539e5-fc2a-4aa9-a799-577163829485.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-13T00:38:29.193414Z",
+    "updatedAt": "2026-07-13T00:38:29.193414Z",
+    "reference": "P123",
+    "stock": "available"
+  },
+  {
+    "id": "a878bbb0-c908-4cec-b9d6-09d27145fd0c",
+    "slug": "panda-bombon",
+    "name": "Panda Bombón",
+    "price": 322900,
+    "description": "Edición Especial · Gigante (1.2 m). Hecho en felpa extra suave, un detalle que enamora a grandes y chicos. Su carita bordada lo hace único.",
+    "images": [
+      "/uploads/products/a878bbb0-c908-4cec-b9d6-09d27145fd0c/8b8eb1c3-fc61-42c1-bbb5-441eb157034d.jpg",
+      "/uploads/products/a878bbb0-c908-4cec-b9d6-09d27145fd0c/784ecbb6-4504-494d-828a-7504aba05f83.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-21T11:21:08.469840Z",
+    "updatedAt": "2026-07-21T11:21:08.469840Z",
+    "reference": "P124",
+    "stock": "low"
+  },
+  {
+    "id": "1babdc29-0c26-4f5e-9e2b-3d9ef9738e49",
+    "slug": "perrito-bombon-mediano",
+    "name": "Perrito Bombón Mediano",
+    "price": 92900,
+    "description": "Colección Fiesta · Mediano (50 cm). Hecho en felpa premium antialérgica, un detalle que enamora a grandes y chicos. Se puede lavar a máquina en ciclo suave.",
+    "images": [
+      "/uploads/products/1babdc29-0c26-4f5e-9e2b-3d9ef9738e49/53eac9cc-5565-45df-b0d3-173b5c6ed574.jpg",
+      "/uploads/products/1babdc29-0c26-4f5e-9e2b-3d9ef9738e49/df356e45-cb72-4ba3-ae3d-0cbc84379cf3.jpg",
+      "/uploads/products/1babdc29-0c26-4f5e-9e2b-3d9ef9738e49/1efb54db-90a5-4e8f-a18d-b70f6f18e766.jpg"
+    ],
+    "favorite": true,
+    "createdAt": "2026-06-27T14:54:41.286237Z",
+    "updatedAt": "2026-06-27T14:54:41.286237Z",
+    "reference": "P125",
+    "stock": "available"
+  },
+  {
+    "id": "6c214b2f-6b09-45eb-9777-7f2008f72524",
+    "slug": "conejo-suenos-mediano",
+    "name": "Conejo Sueños Mediano",
+    "price": 119900,
+    "description": "Colección Abrazos · Mediano (50 cm). Hecho en felpa extra suave, perfecto para decorar y abrazar. Se puede lavar a máquina en ciclo suave.",
+    "images": [
+      "/uploads/products/6c214b2f-6b09-45eb-9777-7f2008f72524/43098e9d-447d-4a24-9d1b-87b1714ab2a9.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-26T22:34:09.829415Z",
+    "updatedAt": "2026-07-26T22:34:09.829415Z",
+    "reference": "P126",
+    "stock": "available"
+  },
+  {
+    "id": "43a0b0d3-a271-42c2-b20e-354ad7153591",
+    "slug": "hipopotamo-mora-gigante",
+    "name": "Hipopótamo Mora Gigante",
+    "price": 297900,
+    "description": "Edición Especial · Gigante (1.2 m). Hecho en felpa premium antialérgica, el regalo perfecto para sorprender a alguien especial. Relleno 100% siliconado que no se deforma.",
+    "images": [
+      "/uploads/products/43a0b0d3-a271-42c2-b20e-354ad7153591/90f13873-0dfe-45dc-8578-bc5e4ef7cc1b.jpg",
+      "/uploads/products/43a0b0d3-a271-42c2-b20e-354ad7153591/f3bf8788-616c-41c5-b621-5a9523b2064e.jpg",
+      "/uploads/products/43a0b0d3-a271-42c2-b20e-354ad7153591/016c9fb5-f84c-40c4-a4b1-b50c677d2299.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-08-14T14:26:34.513687Z",
+    "updatedAt": "2026-08-14T14:26:34.513687Z",
+    "reference": "P127",
+    "stock": "available"
+  },
+  {
+    "id": "c9091104-3944-45a9-ae3a-76488ce82df1",
+    "slug": "oso-polar-miel",
+    "name": "Oso Polar Miel",
+    "price": 86900,
+    "description": "Colección Fiesta · Mediano (50 cm). Hecho en felpa premium antialérgica, perfecto para decorar y abrazar. Su carita bordada lo hace único.",
+    "images": [
+      "/uploads/products/c9091104-3944-45a9-ae3a-76488ce82df1/537b1d33-e43d-45d4-ad44-4c3fd8011ca2.jpg",
+      "/uploads/products/c9091104-3944-45a9-ae3a-76488ce82df1/e559759c-4d15-4293-aa22-30467e78b4f6.jpg"
+    ],
+    "favorite": true,
+    "createdAt": "2026-08-06T10:43:50.989748Z",
+    "updatedAt": "2026-08-06T10:43:50.989748Z",
+    "reference": "P128",
+    "stock": "out"
+  },
+  {
+    "id": "383a9750-c75d-47ba-9190-441dfed6fc5d",
+    "slug": "gatico-miel-mini",
+    "name": "Gatico Miel Mini",
+    "price": 33900,
+    "description": "Colección Nube · Mini (20 cm). Hecho en felpa premium antialérgica, perfecto para decorar y abrazar. Su carita bordada lo hace único.",
+    "images": [
+      "/uploads/products/383a9750-c75d-47ba-9190-441dfed6fc5d/b996d3c5-9394-4b7e-82eb-8f82f89405be.jpg"
+    ],
+    "favorite": true,
+    "createdAt": "2026-07-10T20:58:10.290706Z",
+    "updatedAt": "2026-07-10T20:58:10.290706Z",
+    "reference": "P129",
+    "stock": "out"
+  },
+  {
+    "id": "9546ea56-854e-4b05-abd2-da791700a59f",
+    "slug": "dino-copito-gigante",
+    "name": "Dino Copito Gigante",
+    "price": 279900,
+    "description": "Colección Abrazos · Gigante (1.2 m). Hecho en peluche afelpado de alta densidad, pensado para acompañar a los más pequeños. Costuras reforzadas y ojos bordados, seguros para bebés.",
+    "images": [
+      "/uploads/products/9546ea56-854e-4b05-abd2-da791700a59f/7466d16b-e573-4c5c-97ce-b97a22aea88f.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-08-19T21:36:25.996154Z",
+    "updatedAt": "2026-08-22T19:45:45.212Z",
+    "reference": "P130",
+    "stock": "out"
+  },
+  {
+    "id": "574a0e54-763e-482d-811a-fda571eea91c",
+    "slug": "perrito-peludo",
+    "name": "Perrito Peludo",
+    "price": 152900,
+    "description": "Colección Fiesta · Grande (80 cm). Hecho en peluche de algodón siliconado, perfecto para decorar y abrazar. Costuras reforzadas y ojos bordados, seguros para bebés.",
+    "images": [
+      "/uploads/products/574a0e54-763e-482d-811a-fda571eea91c/127bd152-0882-4afe-b93f-a0e8d38264d9.jpg",
+      "/uploads/products/574a0e54-763e-482d-811a-fda571eea91c/b014bc51-deea-4b17-a8cd-72886b0951a6.jpg",
+      "/uploads/products/574a0e54-763e-482d-811a-fda571eea91c/a70eb67d-a8f1-4a75-a474-ca51b6c039de.jpg"
+    ],
+    "favorite": true,
+    "createdAt": "2026-07-04T05:55:37.731572Z",
+    "updatedAt": "2026-07-04T05:55:37.731572Z",
+    "reference": "P131",
+    "stock": "low"
+  },
+  {
+    "id": "a99f5f80-6c82-40df-8b2b-2bb9bca87ee4",
+    "slug": "perrito-arcoiris-pequeno",
+    "name": "Perrito Arcoíris Pequeño",
+    "price": 79900,
+    "description": "Colección Fiesta · Pequeño (30 cm). Hecho en felpa extra suave, un detalle que enamora a grandes y chicos. Relleno 100% siliconado que no se deforma.",
+    "images": [
+      "/uploads/products/a99f5f80-6c82-40df-8b2b-2bb9bca87ee4/149d8bd0-283c-48bc-aef8-b0b687575e22.jpg",
+      "/uploads/products/a99f5f80-6c82-40df-8b2b-2bb9bca87ee4/233f4972-d7ca-4420-a89f-1361289285d7.jpg",
+      "/uploads/products/a99f5f80-6c82-40df-8b2b-2bb9bca87ee4/a5eace48-994d-4e00-92c5-ef2093767830.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-08-08T14:41:23.213346Z",
+    "updatedAt": "2026-08-08T14:41:23.213346Z",
+    "reference": "P132",
+    "stock": "available"
+  },
+  {
+    "id": "9f9cedbf-3689-4eca-a3aa-f52b7aac25e0",
+    "slug": "leon-bombon-pequeno",
+    "name": "León Bombón Pequeño",
+    "price": 82900,
+    "description": "Colección Nube · Pequeño (30 cm). Hecho en tela minky ultra suave, el compañero ideal para la hora de dormir. Se puede lavar a máquina en ciclo suave.",
+    "images": [
+      "/uploads/products/9f9cedbf-3689-4eca-a3aa-f52b7aac25e0/a30e8282-3dcb-4670-b2ba-bb6b658ff001.jpg",
+      "/uploads/products/9f9cedbf-3689-4eca-a3aa-f52b7aac25e0/ae6133f0-fbee-49c6-a183-b8b16bf36db7.jpg",
+      "/uploads/products/9f9cedbf-3689-4eca-a3aa-f52b7aac25e0/6619c937-86e1-4e09-853a-f02bba72fe22.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-06-25T11:34:23.173068Z",
+    "updatedAt": "2026-06-25T11:34:23.173068Z",
+    "reference": "P133",
+    "stock": "available"
+  },
+  {
+    "id": "a65bbcda-d1af-4f6f-82a2-a6c3909bc9ad",
+    "slug": "leon-peludo",
+    "name": "León Peludo",
+    "price": 136900,
+    "description": "Línea Clásica · Mediano (50 cm). Hecho en felpa premium antialérgica, perfecto para decorar y abrazar. Certificado libre de materiales tóxicos.",
+    "images": [
+      "/uploads/products/a65bbcda-d1af-4f6f-82a2-a6c3909bc9ad/c5f766b9-1129-449a-ad68-991600380c51.jpg",
+      "/uploads/products/a65bbcda-d1af-4f6f-82a2-a6c3909bc9ad/15641e96-191a-4a5e-b790-4d829a7d82f5.jpg",
+      "/uploads/products/a65bbcda-d1af-4f6f-82a2-a6c3909bc9ad/911cfc90-74ae-4db0-aeab-7ee77b4fe030.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-08-06T17:43:09.084428Z",
+    "updatedAt": "2026-08-06T17:43:09.084428Z",
+    "reference": "P134",
+    "stock": "available"
+  },
+  {
+    "id": "57d04038-e0b6-44b3-bacb-32d8ed1cb282",
+    "slug": "hipopotamo-cacao",
+    "name": "Hipopótamo Cacao",
+    "price": 217900,
+    "description": "Edición Especial · Grande (80 cm). Hecho en felpa extra suave, un detalle que enamora a grandes y chicos. Certificado libre de materiales tóxicos.",
+    "images": [
+      "/uploads/products/57d04038-e0b6-44b3-bacb-32d8ed1cb282/a8ccfe3a-bbb8-43b5-ad33-72df7c8d37ca.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-08-19T16:12:37.527721Z",
+    "updatedAt": "2026-08-19T16:12:37.527721Z",
+    "reference": "P135",
+    "stock": "low"
+  },
+  {
+    "id": "f2cfb7d7-c209-4834-9e18-9d4ebfd0fe34",
+    "slug": "unicornio-galleta-pequeno",
+    "name": "Unicornio Galleta Pequeño",
+    "price": 82900,
+    "description": "Línea Clásica · Pequeño (30 cm). Hecho en felpa premium antialérgica, pensado para acompañar a los más pequeños. Se puede lavar a máquina en ciclo suave.",
+    "images": [
+      "/uploads/products/f2cfb7d7-c209-4834-9e18-9d4ebfd0fe34/c0185247-34a3-4527-9571-a8b4f5b69fbf.jpg",
+      "/uploads/products/f2cfb7d7-c209-4834-9e18-9d4ebfd0fe34/3d1ea4b4-7519-4d48-a790-5dea3533e322.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-08-14T09:31:51.004870Z",
+    "updatedAt": "2026-08-14T09:31:51.004870Z",
+    "reference": "P136",
+    "stock": "available"
+  },
+  {
+    "id": "a5ce57de-284b-40c5-b040-1e491f02fdfc",
+    "slug": "gatico-cacao",
+    "name": "Gatico Cacao",
+    "price": 172900,
+    "description": "Edición Especial · Grande (80 cm). Hecho en peluche de algodón siliconado, perfecto para decorar y abrazar. Incluye moño decorativo de regalo.",
+    "images": [
+      "/uploads/products/a5ce57de-284b-40c5-b040-1e491f02fdfc/f5f65b75-d3d9-4fcf-9c87-c193bc27fd97.jpg",
+      "/uploads/products/a5ce57de-284b-40c5-b040-1e491f02fdfc/a7ba0233-8f1a-4e83-802d-d2ba226bb552.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-30T06:40:04.745225Z",
+    "updatedAt": "2026-07-30T06:40:04.745225Z",
+    "reference": "P137",
+    "stock": "available"
+  },
+  {
+    "id": "9fd7609a-dc51-4ee8-bd28-991c9afa042d",
+    "slug": "conejita-corazon",
+    "name": "Conejita Corazón",
+    "price": 385900,
+    "description": "Colección Abrazos · Gigante (1.2 m). Hecho en felpa premium antialérgica, perfecto para decorar y abrazar. Incluye moño decorativo de regalo.",
+    "images": [
+      "/uploads/products/9fd7609a-dc51-4ee8-bd28-991c9afa042d/4fb6a3d3-4a19-4453-9fb8-0ed3c95e2ac1.jpg",
+      "/uploads/products/9fd7609a-dc51-4ee8-bd28-991c9afa042d/735666a5-8571-44ba-b5d4-06cb07b287b3.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-17T01:15:56.773010Z",
+    "updatedAt": "2026-07-17T01:15:56.773010Z",
+    "reference": "P138",
+    "stock": "available"
+  },
+  {
+    "id": "4745a5f1-93c3-4f6e-b91e-50fd3b143c9f",
+    "slug": "conejo-suenos",
+    "name": "Conejo Sueños",
+    "price": 161900,
+    "description": "Colección Fiesta · Grande (80 cm). Hecho en peluche de algodón siliconado, el regalo perfecto para sorprender a alguien especial. Relleno 100% siliconado que no se deforma.",
+    "images": [
+      "/uploads/products/4745a5f1-93c3-4f6e-b91e-50fd3b143c9f/e540379b-a10b-420e-bd80-b5d312646443.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-13T07:46:50.266838Z",
+    "updatedAt": "2026-07-13T07:46:50.266838Z",
+    "reference": "P139",
+    "stock": "available"
+  },
+  {
+    "id": "9af8875c-cc8d-4125-9827-129867caf966",
+    "slug": "hipopotamo-bombon-mediano",
+    "name": "Hipopótamo Bombón Mediano",
+    "price": 88900,
+    "description": "Colección Nube · Mediano (50 cm). Hecho en peluche de algodón siliconado, ideal para regalar en cumpleaños y aniversarios. Relleno 100% siliconado que no se deforma.",
+    "images": [
+      "/uploads/products/9af8875c-cc8d-4125-9827-129867caf966/005351e8-e0de-4352-99df-086ce7ac1ecd.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-24T10:00:08.542580Z",
+    "updatedAt": "2026-07-24T10:00:08.542580Z",
+    "reference": "P140",
+    "stock": "available"
+  },
+  {
+    "id": "576c465a-e458-4358-b26f-3b79513c93c9",
+    "slug": "koala-chocolate",
+    "name": "Koala Chocolate",
+    "price": 56900,
+    "description": "Línea Baby · Pequeño (30 cm). Hecho en tela minky ultra suave, un detalle que enamora a grandes y chicos. Costuras reforzadas y ojos bordados, seguros para bebés.",
+    "images": [
+      "/uploads/products/576c465a-e458-4358-b26f-3b79513c93c9/64ee15a1-96e7-4ecd-94f0-5fede919ced2.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-11T14:59:32.289432Z",
+    "updatedAt": "2026-07-11T14:59:32.289432Z",
+    "reference": "P141",
+    "stock": "available"
+  },
+  {
+    "id": "6e6e44a4-8b5f-4cf9-bae1-317b1711af62",
+    "slug": "conejo-luna-gigante",
+    "name": "Conejo Luna Gigante",
+    "price": 415900,
+    "description": "Edición Especial · Gigante (1.2 m). Hecho en peluche de algodón siliconado, ideal para regalar en cumpleaños y aniversarios. Incluye moño decorativo de regalo.",
+    "images": [
+      "/uploads/products/6e6e44a4-8b5f-4cf9-bae1-317b1711af62/ae47b0b1-eb37-4693-9646-6823966bf02c.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-25T08:45:32.349697Z",
+    "updatedAt": "2026-07-25T08:45:32.349697Z",
+    "reference": "P142",
+    "stock": "available"
+  },
+  {
+    "id": "dba5adeb-5f14-4d4d-ac24-680ada4fad12",
+    "slug": "hipopotamo-dulce",
+    "name": "Hipopótamo Dulce",
+    "price": 337900,
+    "description": "Edición Especial · Gigante (1.2 m). Hecho en tela minky ultra suave, pensado para acompañar a los más pequeños. Incluye moño decorativo de regalo.",
+    "images": [
+      "/uploads/products/dba5adeb-5f14-4d4d-ac24-680ada4fad12/3abed2e3-01cc-4f88-bcb1-dcc713b7ecb0.jpg",
+      "/uploads/products/dba5adeb-5f14-4d4d-ac24-680ada4fad12/d4ec1f03-d8d3-4136-bed9-a1904199915e.jpg",
+      "/uploads/products/dba5adeb-5f14-4d4d-ac24-680ada4fad12/ce2c38d3-5158-4108-8b81-b9b5def1796e.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-08T16:20:11.004329Z",
+    "updatedAt": "2026-07-08T16:20:11.004329Z",
+    "reference": "P143",
+    "stock": "available"
+  },
+  {
+    "id": "832466eb-18d7-4423-9942-c0c83c77f306",
+    "slug": "leon-mora",
+    "name": "León Mora",
+    "price": 115900,
+    "description": "Edición Especial · Mediano (50 cm). Hecho en tela minky ultra suave, el regalo perfecto para sorprender a alguien especial. Costuras reforzadas y ojos bordados, seguros para bebés.",
+    "images": [
+      "/uploads/products/832466eb-18d7-4423-9942-c0c83c77f306/746e716e-6adc-4b7c-b96b-46e866dad78b.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-08-17T20:09:32.069157Z",
+    "updatedAt": "2026-08-17T20:09:32.069157Z",
+    "reference": "P144",
+    "stock": "available"
+  },
+  {
+    "id": "575da2ec-3b9f-4d33-8e12-857770bf79ad",
+    "slug": "unicornio-caramelo-pequeno",
+    "name": "Unicornio Caramelo Pequeño",
+    "price": 76900,
+    "description": "Línea Baby · Pequeño (30 cm). Hecho en peluche de algodón siliconado, el regalo perfecto para sorprender a alguien especial. Costuras reforzadas y ojos bordados, seguros para bebés.",
+    "images": [
+      "/uploads/products/575da2ec-3b9f-4d33-8e12-857770bf79ad/42eeefad-1fea-4801-8f3b-3d69ad19ad3e.jpg"
+    ],
+    "favorite": true,
+    "createdAt": "2026-07-28T18:37:35.952935Z",
+    "updatedAt": "2026-07-28T18:37:35.952935Z",
+    "reference": "P145",
+    "stock": "available"
+  },
+  {
+    "id": "7d6cc8a4-e338-4951-b2ac-920e73876c9f",
+    "slug": "leon-arcoiris",
+    "name": "León Arcoíris",
+    "price": 200900,
+    "description": "Edición Especial · Grande (80 cm). Hecho en felpa extra suave, pensado para acompañar a los más pequeños. Incluye moño decorativo de regalo.",
+    "images": [
+      "/uploads/products/7d6cc8a4-e338-4951-b2ac-920e73876c9f/d1adf71e-5dd3-419c-90d2-4d02493bee58.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-06-26T21:52:39.802523Z",
+    "updatedAt": "2026-06-26T21:52:39.802523Z",
+    "reference": "P146",
+    "stock": "available"
+  },
+  {
+    "id": "9ab843fb-adda-42d9-a401-a1d1d359b8a4",
+    "slug": "unicornio-cafe-pequeno",
+    "name": "Unicornio Café Pequeño",
+    "price": 60900,
+    "description": "Colección Abrazos · Pequeño (30 cm). Hecho en tela minky ultra suave, un detalle que enamora a grandes y chicos. Relleno 100% siliconado que no se deforma.",
+    "images": [
+      "/uploads/products/9ab843fb-adda-42d9-a401-a1d1d359b8a4/339d3461-3110-4f67-9ed0-5cfef9a39d30.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-12T20:15:32.341687Z",
+    "updatedAt": "2026-07-12T20:15:32.341687Z",
+    "reference": "P147",
+    "stock": "available"
+  },
+  {
+    "id": "e031649e-c1da-4563-967d-93da24467436",
+    "slug": "oso-polar-cafe-gigante",
+    "name": "Oso Polar Café Gigante",
+    "price": 390900,
+    "description": "Línea Baby · Gigante (1.2 m). Hecho en peluche afelpado de alta densidad, pensado para acompañar a los más pequeños. Su carita bordada lo hace único.",
+    "images": [
+      "/uploads/products/e031649e-c1da-4563-967d-93da24467436/c528c3ce-6c3a-4bc8-9db7-b17c470f7b90.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-15T01:46:34.076849Z",
+    "updatedAt": "2026-07-15T01:46:34.076849Z",
+    "reference": "P148",
+    "stock": "low"
+  },
+  {
+    "id": "26a6dd72-f816-42e7-9146-87c1ef4096f0",
+    "slug": "conejita-corazon-mediano",
+    "name": "Conejita Corazón Mediano",
+    "price": 90900,
+    "description": "Colección Abrazos · Mediano (50 cm). Hecho en felpa premium antialérgica, un detalle que enamora a grandes y chicos. Se puede lavar a máquina en ciclo suave.",
+    "images": [
+      "/uploads/products/26a6dd72-f816-42e7-9146-87c1ef4096f0/335aac15-ee06-4e60-a802-87aef0d115c7.jpg",
+      "/uploads/products/26a6dd72-f816-42e7-9146-87c1ef4096f0/160bb302-98dd-44d6-8906-699c885a33c7.jpg"
+    ],
+    "favorite": false,
+    "createdAt": "2026-07-03T14:34:00.933235Z",
+    "updatedAt": "2026-07-03T14:34:00.933235Z",
+    "reference": "P149",
+    "stock": "available"
+  }
+]

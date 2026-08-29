@@ -1,0 +1,33 @@
+# Configuración de despliegue para Render (https://render.com)
+# Con este archivo en el repositorio, Render detecta y configura el servicio solo.
+services:
+  - type: web
+    name: pelumi
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: npm ci && npm run build
+    startCommand: npm run start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      # Credenciales del panel de administración.
+      # sync: false = Render las pide al crear el servicio (no se guardan en el repo).
+      - key: ADMIN_USERNAME
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: SESSION_SECRET
+        generateValue: true # Render genera una clave aleatoria segura
+      # Estas son públicas (se incrustan en el sitio al compilar).
+      - key: NEXT_PUBLIC_WHATSAPP_NUMBER
+        sync: false
+      - key: NEXT_PUBLIC_WHATSAPP_MESSAGE
+        value: "Hola, quiero más información sobre {producto} 🧸"
+      - key: NEXT_PUBLIC_INSTAGRAM
+        value: distripeluches
+      - key: NEXT_PUBLIC_ADDRESS
+        value: "Cl 45 # 54-414, El Santuario, Antioquia"
+      - key: NEXT_PUBLIC_SITE_URL
+        sync: false
