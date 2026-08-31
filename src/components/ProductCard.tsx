@@ -4,20 +4,30 @@ import Image from "next/image";
 import Link from "next/link";
 import { Product } from "@/lib/types";
 import { formatPrice } from "@/lib/format";
-import { AddToCartMini } from "@/components/cart/AddToCartButton";
+import { AddToCartWide } from "@/components/cart/AddToCartButton";
 import { track } from "@/lib/track";
 
-export default function ProductCard({ product }: { product: Product }) {
+/**
+ * Tarjeta de producto: foto arriba, nombre, precio y botón de agregar a lo ancho.
+ * `badge` muestra la etiqueta blanca de la esquina (ej. "Nuevo").
+ */
+export default function ProductCard({
+  product,
+  badge,
+}: {
+  product: Product;
+  badge?: string;
+}) {
   const cover = product.images[0];
   const hover = product.images[1];
   const trackClick = () => track("product_click", { productId: product.id });
 
   return (
-    <div className="group relative flex flex-col">
+    <div className="group flex h-full flex-col overflow-hidden rounded-3xl border border-pelumi-cream bg-white shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl hover:shadow-pelumi-teal/15">
       <Link
         href={`/catalogo/${product.slug}`}
         onClick={trackClick}
-        className="relative block aspect-square overflow-hidden rounded-[1.75rem] bg-pelumi-blue-light shadow-sm transition-all duration-300 group-hover:-translate-y-1.5 group-hover:shadow-xl group-hover:shadow-pelumi-blue/20"
+        className="relative block aspect-square overflow-hidden bg-pelumi-blue-light"
       >
         {cover ? (
           <>
@@ -27,7 +37,7 @@ export default function ProductCard({ product }: { product: Product }) {
               fill
               sizes="(min-width: 1024px) 25vw, (min-width: 640px) 33vw, 50vw"
               className={`object-cover transition-all duration-500 ${
-                hover ? "group-hover:opacity-0" : "group-hover:scale-[1.08]"
+                hover ? "group-hover:opacity-0" : "group-hover:scale-[1.07]"
               }`}
             />
             {hover && (
@@ -46,38 +56,38 @@ export default function ProductCard({ product }: { product: Product }) {
           </div>
         )}
 
-        {product.favorite && (
-          <span className="absolute left-3 top-3 flex items-center gap-1 rounded-full bg-white/95 px-3 py-1 text-xs font-extrabold text-pelumi-pink shadow-sm">
-            ♥ Favorito
+        {badge && product.stock !== "out" && (
+          <span className="absolute left-3 top-3 rounded-full bg-white px-3 py-1 text-[11px] font-extrabold text-pelumi-ink shadow-sm">
+            {badge}
           </span>
         )}
 
         {product.stock === "low" && (
-          <span className="absolute right-3 top-3 rounded-full bg-pelumi-yellow px-3 py-1 text-xs font-extrabold text-pelumi-ink shadow-sm">
+          <span className="absolute right-3 top-3 rounded-full bg-pelumi-yellow px-3 py-1 text-[11px] font-extrabold text-pelumi-ink shadow-sm">
             ¡Pocas unidades!
           </span>
         )}
         {product.stock === "out" && (
           <>
             <div className="absolute inset-0 bg-white/55" />
-            <span className="absolute right-3 top-3 rounded-full bg-pelumi-ink/85 px-3 py-1 text-xs font-extrabold text-white shadow-sm">
+            <span className="absolute left-3 top-3 rounded-full bg-pelumi-ink/85 px-3 py-1 text-[11px] font-extrabold text-white shadow-sm">
               Agotado
             </span>
           </>
         )}
       </Link>
 
-      <div className="mt-3 flex flex-col items-center gap-1.5 text-center">
+      <div className="flex flex-1 flex-col p-4">
         <Link href={`/catalogo/${product.slug}`} onClick={trackClick}>
-          <h3 className="line-clamp-1 font-heading text-base text-pelumi-ink transition-colors group-hover:text-pelumi-pink sm:text-lg">
+          <h3 className="line-clamp-1 font-heading text-[15px] text-pelumi-ink transition-colors group-hover:text-pelumi-pink">
             {product.name}
           </h3>
         </Link>
-        <div className="flex items-center gap-2.5">
-          <span className="font-heading text-base text-pelumi-blue-dark">
-            {formatPrice(product.price)}
-          </span>
-          <AddToCartMini product={product} />
+        <p className="mt-0.5 font-heading text-[15px] text-pelumi-pink">
+          {formatPrice(product.price)}
+        </p>
+        <div className="mt-3">
+          <AddToCartWide product={product} />
         </div>
       </div>
     </div>

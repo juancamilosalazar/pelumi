@@ -4,15 +4,32 @@ import { useState } from "react";
 import { Product } from "@/lib/types";
 import { useCart } from "@/lib/cart";
 import { track } from "@/lib/track";
+import { CartIcon } from "@/components/TrustIcons";
 
-/** Botón compacto para tarjetas del catálogo. */
-export function AddToCartMini({ product }: { product: Product }) {
+/** Lógica compartida por las variantes de "agregar al carrito". */
+function useAddToCart(product: Product) {
   const { addItem } = useCart();
   const [added, setAdded] = useState(false);
 
+  const add = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    addItem(product, 1);
+    track("cart_add", { productId: product.id });
+    setAdded(true);
+    setTimeout(() => setAdded(false), 1200);
+  };
+
+  return { add, added };
+}
+
+/** Botón a lo ancho de la tarjeta (secciones de catálogo y novedades). */
+export function AddToCartWide({ product }: { product: Product }) {
+  const { add, added } = useAddToCart(product);
+
   if (product.stock === "out") {
     return (
-      <span className="flex items-center gap-1.5 rounded-full bg-pelumi-ink/10 px-3.5 py-2 text-xs font-bold text-pelumi-ink/45">
+      <span className="flex w-full items-center justify-center rounded-full bg-pelumi-ink/10 py-2.5 text-xs font-bold text-pelumi-ink/45">
         Agotado
       </span>
     );
@@ -21,18 +38,9 @@ export function AddToCartMini({ product }: { product: Product }) {
   return (
     <button
       type="button"
-      onClick={(e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        addItem(product, 1);
-        track("cart_add", { productId: product.id });
-        setAdded(true);
-        setTimeout(() => setAdded(false), 1200);
-      }}
-      className={`flex items-center gap-1.5 rounded-full px-3.5 py-2 text-xs font-bold shadow-sm transition-all active:scale-95 ${
-        added
-          ? "bg-pelumi-blue-dark text-white"
-          : "bg-pelumi-pink text-white hover:scale-105 hover:bg-pelumi-pink-dark"
+      onClick={add}
+      className={`flex w-full items-center justify-center gap-2 rounded-full py-2.5 text-[13px] font-bold text-white shadow-sm transition-all active:scale-95 ${
+        added ? "bg-pelumi-blue-dark" : "bg-pelumi-pink hover:bg-pelumi-pink-dark"
       }`}
       aria-label={`Agregar ${product.name} al carrito`}
     >
@@ -42,7 +50,43 @@ export function AddToCartMini({ product }: { product: Product }) {
         </>
       ) : (
         <>
-          <BagIcon /> Agregar
+          <CartIcon size={15} /> Agregar
+        </>
+      )}
+    </button>
+  );
+}
+
+/** Pastilla suave, para los favoritos circulares. */
+export function AddToCartPill({ product }: { product: Product }) {
+  const { add, added } = useAddToCart(product);
+
+  if (product.stock === "out") {
+    return (
+      <span className="inline-flex items-center rounded-full bg-pelumi-ink/10 px-4 py-1.5 text-xs font-bold text-pelumi-ink/45">
+        Agotado
+      </span>
+    );
+  }
+
+  return (
+    <button
+      type="button"
+      onClick={add}
+      className={`inline-flex items-center gap-1.5 rounded-full px-4 py-1.5 text-xs font-bold transition-all hover:scale-105 active:scale-95 ${
+        added
+          ? "bg-pelumi-blue-dark text-white"
+          : "bg-pelumi-pink-light text-pelumi-pink hover:bg-pelumi-pink hover:text-white"
+      }`}
+      aria-label={`Agregar ${product.name} al carrito`}
+    >
+      {added ? (
+        <>
+          <CheckIcon /> Listo
+        </>
+      ) : (
+        <>
+          <CartIcon size={13} /> Agregar
         </>
       )}
     </button>
